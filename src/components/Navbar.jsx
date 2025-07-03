@@ -28,7 +28,7 @@ const Navbar = () => {
     <nav
       className={cn(
         "fixed w-full z-40 transition-all duration-300",
-        isMenuOpen ? "backdrop-blur-sm inset-1 bg-background/95" : "",
+        isMenuOpen ? "fixed backdrop-blur-sm inset-1 bg-background/95" : "",
         isScrolled ? "py-5" : "py-5 bg-background/80 backdrop-blur-md shadow-xs"
       )}
     >
