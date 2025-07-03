@@ -17,7 +17,7 @@ const HeroSection = () => {
                 </p>
 
                 <div className='pt-4 opacity-0 animate-fade-in-delay-4'>
-                  <a href="#project" className='cosmic-button'>
+                  <a href="#projects" className='cosmic-button'>
                     View My Work
                   </a>
                 </div>
