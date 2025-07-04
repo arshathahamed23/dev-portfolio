@@ -1,9 +1,20 @@
 import { ArrowDown } from 'lucide-react'
+import ProfilePic from "../assets/profilepic.jpg"
 import React from 'react'
 
 const HeroSection = () => {
   return (
     <section id='hero' className='relative min-h-screen flex flex-col items-center justify-center px-4'>
+
+        {/* Profile Image */}
+      <div className='z-10 mb-8'>
+        <img
+          src={ProfilePic}
+          alt="Profile photo"
+          className='w-90 h-90 rounded-full object-cover shadow-2xl border-3 border-foreground'
+        />
+      </div>
+
         <div className='container max-w-4xl mx-auto text-center z-10'>
             <div className='space-y-6'>
                 <h1 className='text-4xl md:text-6xl font-bold tracking-tight'>
