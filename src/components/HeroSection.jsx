@@ -7,11 +7,11 @@ const HeroSection = () => {
     <section id='hero' className='relative min-h-screen flex flex-col items-center justify-center px-4'>
 
         {/* Profile Image */}
-      <div className='z-10 mb-8'>
+      <div className='z-10 mb-8 sm:mb-36 md:mb-14'>
         <img
           src={ProfilePic}
           alt="Profile photo"
-          className='w-90 h-90 rounded-full object-cover shadow-2xl border-3 border-foreground'
+          className='w-42 h-42 sm:w-50 sm:h-50 md:w-90 md:h-90 rounded-full object-cover shadow-2xl border-3 border-foreground'
         />
       </div>
 
