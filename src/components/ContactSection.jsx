@@ -52,10 +52,10 @@ const ContactSection = () => {
                 <div>
                   <h4 className="font-medium text-start">Email</h4>
                   <a
-                    href="mailto:arshathda00@gmail.com"
+                    href="mailto:arshath2303@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    arshathda00@gmail.com
+                    arshath2303@gmail.com
                   </a>
                 </div>
               </div>
@@ -82,7 +82,7 @@ const ContactSection = () => {
                 <div>
                   <h4 className="font-medium text-start">Location</h4>
                   <a className="text-muted-foreground hover:text-primary transition-colors">
-                    Villianur, Pondicerry, India
+                    Pondicerry-605110, India
                   </a>
                 </div>
               </div>
@@ -130,7 +130,7 @@ const ContactSection = () => {
                   name="name"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
-                  placeholder="Arshath Ahamed...."
+                  placeholder="Tony Stark...."
                 />
               </div>
 

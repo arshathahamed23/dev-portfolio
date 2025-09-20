@@ -1,5 +1,5 @@
 import { Briefcase, Code, User } from "lucide-react";
-import Resume from "../assets/Arshath_Ahamed_Dev.pdf"
+import Resume from "../assets/Arshath_Ahamed_CV.pdf"
 import React from "react";
 
 const AboutSection = () => {
